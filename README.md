@@ -2,7 +2,7 @@
  Django class based view and custom model project, 
  In this project i use TemplateView,  ListView,  DetailView,  CreateView,  UpdateView and DeleteView.
 
-# Use for those class based view:
+# Use of those class based view:
 1. TemplateView : TemplateView use for home page like where we use just html, css, js etc for design our any page.
 2. ListView : ListView use for some of list to view, like table list, e-Commerce projuct list view etc. 
               if we use listView it's help us to easly showing some list.
