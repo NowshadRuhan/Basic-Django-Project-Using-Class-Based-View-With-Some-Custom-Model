@@ -11,4 +11,11 @@
 5. UpdateView : UpdateView use to update any kind of object, as example: if we need to update our created product object than we will use UpdateView.
 6. DeleteView : We can undastand that easly this view use for delete any object.
 
-# So that you can easly undastood that using those Six class based view we can make our project easly.
+# So that you can easly undastood that using those six class based view we can make our project easly.
+
+# About custom models in this project
+In this class based project i use 2 models. Because, it's a basic project of crud.
+1. Musician model.
+2. Album model.
+
+Here relation of Musician to Album is OneToMany.
