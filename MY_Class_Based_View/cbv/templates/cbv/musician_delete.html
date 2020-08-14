@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block body_block %}
+
+<h1 align="center">{{ text }}</h1>
+
+<h2>First name : {{ musician.first_name }}</h2>
+<h2>Last name : {{ musician.last_name }} </h2>
+<h2>Instrument : {{ musician.instrument }}</h2>
+<form  method="POST">
+  {% csrf_token %}
+
+  <input type="submit" name="submit" value="Delete" onclick="confirm('Are you sure!!')" class="btn btn-danger">
+  <a class="btn btn-success" href="{% url 'cbv:musicians' pk=musician.pk %}"> Cancel</a>
+</form>
+
+{% endblock %}
